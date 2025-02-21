@@ -22,47 +22,35 @@ import { TbBrandGolang } from "react-icons/tb";
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xl={3} sm={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <Col xl={3} sm={2} className="tech-icons">
+        Unity
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <Col xl={3} sm={2} className="tech-icons">
+        Unreal5
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <Col xl={3} sm={2} className="tech-icons">
+        Godot
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <Col xl={3} sm={2} className="tech-icons">
+        SdL
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <Col xl={3} sm={2} className="tech-icons">
+        OpenGl
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <Col xl={3} sm={2} className="tech-icons">
+        VueJS
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+      <Col xl={3} sm={2} className="tech-icons">
+        LangChain
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <Col xl={3} sm={2} className="tech-icons">
+        Python
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <Col xl={3} sm={2} className="tech-icons">
+        Firebase
       </Col>
     </Row>
   );
