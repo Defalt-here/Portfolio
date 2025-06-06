@@ -23,6 +23,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pnc}
+              isBlog={false}
+              title="Paint N Click"
+              description=" Developed a Progressive Web App using Next.js, Tailwind CSS, and ShadCN UI, enabling mobile installation, which has attracted over 500 users and 1500+ global views. Also implemented SWR for API caching and call de-duplication, reducing page load time by 40%. Integrated the Dropbox API with caching to decrease high-resolution image load time by 43% . Deployed Hugging Face and Spotify API to generate playlist-based descriptions, which received around 200+ views."
+              demoLink="https://paintnclick.art"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={MNSN}
               isBlog={false}
               title="Midnight Summer Ninja"
