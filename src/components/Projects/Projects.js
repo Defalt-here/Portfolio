@@ -8,7 +8,7 @@ import Diab from "../../Assets/Projects/Diab.png";
 import MNSN from "../../Assets/Projects/MNSN.png";
 import input from "../../Assets/Projects/input.jpg";
 import snake from "../../Assets/Projects/Snake.png";
-
+import pnc from "../../Assets/Projects/pnc.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
